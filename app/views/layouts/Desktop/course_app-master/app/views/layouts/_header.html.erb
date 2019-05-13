@@ -1,0 +1,64 @@
+<header class="navbar navbar-fixed-top navbar-inverse"> 
+    <div class="container"> 
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <button type="button" class="btn btn-info" style="font-size: 30px">YOURCOURSE</button>
+    <nav> 
+    <ul class="nav navbar-nav navbar-right"> 
+    <div class="btn-group">
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+      <span class="glyphicon glyphicon-screenshot"></span> Category<span class="caret"></span>
+    </button>
+    
+     
+     
+     
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">Web Development</a>
+        </li>
+        <li>
+            <a href="#">Java</a>
+        </li>
+        <li>
+            <a href="#">Full Stack Dev</a>
+        </li>
+        <li>
+            <a href="#">iOS Engineering</a>
+        </li>
+    </ul>
+   </div>
+    <div class="btn-group">
+    
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+     <span class='glyphicon glyphicon-new-window'></span> Locations<span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">14.10.31</a>
+        </li>
+        <li>
+            <a href="#">14.08.26</a>
+        </li>
+        <li>
+            <a href="#">14.10.30</a>
+        </li>
+    </ul>
+    </div>
+  <button type="button" class="btn btn-info">
+   <% if logged_in? %>
+     <li><%= link_to "Users", '#' %></li>  
+     <li><%= link_to "Profile", current_user %></li>
+     <li><%= link_to "Settings", '#' %></li>
+    <%= link_to "Log out", logout_path, method: :delete %>
+    
+     <span class="glyphicon glyphicon-user"></span> 
+ 
+    
+     <% else %>
+          <li><%= link_to "Log in", login_path %></li>
+        <% end %>
+    </ul>
+    </nav> 
+    </div> 
+    </header> 

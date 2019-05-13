@@ -1,0 +1,30 @@
+!SESSION 2019-04-29 09:12:03.921 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_AU
+Framework arguments:  -keyring /Users/liuxiaozhen/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data @noDefault -keyring /Users/liuxiaozhen/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-29 09:12:06.735
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2019-04-29 09:13:46.304 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_AU
+Framework arguments:  -keyring /Users/liuxiaozhen/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data @noDefault -keyring /Users/liuxiaozhen/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-29 09:13:48.271
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2019-05-06 14:04:16.671 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_AU
+Framework arguments:  -keyring /Users/liuxiaozhen/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data @noDefault -keyring /Users/liuxiaozhen/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-06 14:04:19.191
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
